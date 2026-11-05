@@ -105,7 +105,7 @@ class FlowTests(unittest.TestCase):
         log = json.loads(debloat.backup_file("FAKE123").read_text())
         self.assertEqual([e["id"] for e in log], ["com.samsung.android.app.tips"])
 
-        self.assertEqual(self.run_cli("restore", answers=["all"]), 0)
+        self.assertEqual(self.run_cli("restore", "all"), 0)
         self.assertIn("com.samsung.android.app.tips", self.phone.installed)
         self.assertEqual(json.loads(debloat.backup_file("FAKE123").read_text()), [])
 

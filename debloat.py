@@ -309,7 +309,12 @@ def cmd_restore(args: argparse.Namespace) -> int:
     describe(adb)
     log = read_backup(adb.serial)
 
-    if args.packages:
+    if args.packages == ["all"]:
+        targets = [e["id"] for e in log]
+        if not targets:
+            print("No removal history for this phone.")
+            return 0
+    elif args.packages:
         targets = list(args.packages)
     else:
         if not log:
@@ -369,7 +374,7 @@ def main(argv: list[str] | None = None) -> int:
     rm.add_argument("-y", "--yes", action="store_true", help="don't ask, remove all")
 
     rs = sub.add_parser("restore", help="bring back removed apps")
-    rs.add_argument("packages", nargs="*", help="package names (default: pick from history)")
+    rs.add_argument("packages", nargs="*", help="package names, or 'all' (default: pick from history)")
 
     sub.add_parser("list", help="show the bloatware lists for this phone")
 
