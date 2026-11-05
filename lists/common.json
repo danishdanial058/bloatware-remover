@@ -1,0 +1,127 @@
+{
+  "name": "Common preloads (all brands)",
+  "manufacturers": [],
+  "packages": [
+    {
+      "id": "com.facebook.katana",
+      "label": "Facebook",
+      "level": "safe"
+    },
+    {
+      "id": "com.facebook.system",
+      "label": "Facebook App Installer",
+      "level": "safe"
+    },
+    {
+      "id": "com.facebook.appmanager",
+      "label": "Facebook App Manager",
+      "level": "safe"
+    },
+    {
+      "id": "com.facebook.services",
+      "label": "Facebook Services",
+      "level": "safe"
+    },
+    {
+      "id": "com.netflix.mediaclient",
+      "label": "Netflix (preloaded)",
+      "level": "safe"
+    },
+    {
+      "id": "com.netflix.partner.activation",
+      "label": "Netflix partner activation",
+      "level": "safe"
+    },
+    {
+      "id": "com.linkedin.android",
+      "label": "LinkedIn",
+      "level": "safe"
+    },
+    {
+      "id": "com.microsoft.skydrive",
+      "label": "OneDrive",
+      "level": "safe"
+    },
+    {
+      "id": "com.microsoft.office.officehubrow",
+      "label": "Microsoft 365 (Office)",
+      "level": "safe"
+    },
+    {
+      "id": "com.spotify.music",
+      "label": "Spotify (preloaded)",
+      "level": "safe"
+    },
+    {
+      "id": "com.amazon.mShop.android.shopping",
+      "label": "Amazon Shopping",
+      "level": "safe"
+    },
+    {
+      "id": "com.amazon.appmanager",
+      "label": "Amazon App Manager",
+      "level": "safe"
+    },
+    {
+      "id": "com.booking",
+      "label": "Booking.com",
+      "level": "safe"
+    },
+    {
+      "id": "com.ebay.mobile",
+      "label": "eBay",
+      "level": "safe"
+    },
+    {
+      "id": "com.ebay.carrier",
+      "label": "eBay carrier installer",
+      "level": "safe"
+    },
+    {
+      "id": "com.google.android.apps.tachyon",
+      "label": "Google Meet (Duo)",
+      "level": "safe"
+    },
+    {
+      "id": "com.google.android.videos",
+      "label": "Google TV / Play Movies",
+      "level": "safe"
+    },
+    {
+      "id": "com.google.android.music",
+      "label": "Google Play Music (dead service)",
+      "level": "safe"
+    },
+    {
+      "id": "com.google.android.apps.magazines",
+      "label": "Google News",
+      "level": "safe"
+    },
+    {
+      "id": "com.google.android.apps.podcasts",
+      "label": "Google Podcasts (dead service)",
+      "level": "safe"
+    },
+    {
+      "id": "com.google.android.apps.books",
+      "label": "Google Play Books",
+      "level": "safe"
+    },
+    {
+      "id": "com.google.android.apps.youtube.music",
+      "label": "YouTube Music",
+      "level": "advanced",
+      "note": "Remove only if you don't use it"
+    },
+    {
+      "id": "com.google.android.apps.subscriptions.red",
+      "label": "Google One",
+      "level": "advanced"
+    },
+    {
+      "id": "com.google.android.feedback",
+      "label": "Google feedback reporter",
+      "level": "advanced"
+    }
+  ]
+}

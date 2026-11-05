@@ -1,0 +1,134 @@
+{
+  "name": "Samsung (One UI)",
+  "manufacturers": [
+    "samsung"
+  ],
+  "packages": [
+    {
+      "id": "com.samsung.android.bixby.agent",
+      "label": "Bixby Voice",
+      "level": "safe"
+    },
+    {
+      "id": "com.samsung.android.bixby.wakeup",
+      "label": "Bixby wake-up",
+      "level": "safe"
+    },
+    {
+      "id": "com.samsung.android.bixbyvision.framework",
+      "label": "Bixby Vision",
+      "level": "safe"
+    },
+    {
+      "id": "com.samsung.android.visionintelligence",
+      "label": "Bixby Vision intelligence",
+      "level": "safe"
+    },
+    {
+      "id": "com.samsung.systemui.bixby2",
+      "label": "Bixby SystemUI hook",
+      "level": "safe"
+    },
+    {
+      "id": "com.samsung.android.app.settings.bixby",
+      "label": "Bixby settings",
+      "level": "safe"
+    },
+    {
+      "id": "com.samsung.android.app.spage",
+      "label": "Samsung Free / Bixby Home",
+      "level": "safe"
+    },
+    {
+      "id": "com.samsung.android.app.routines",
+      "label": "Bixby Routines / Modes",
+      "level": "advanced",
+      "note": "Breaks Modes & Routines"
+    },
+    {
+      "id": "com.samsung.android.arzone",
+      "label": "AR Zone",
+      "level": "safe"
+    },
+    {
+      "id": "com.samsung.android.aremoji",
+      "label": "AR Emoji",
+      "level": "safe"
+    },
+    {
+      "id": "com.samsung.android.ardrawing",
+      "label": "AR Doodle",
+      "level": "safe"
+    },
+    {
+      "id": "com.samsung.android.app.tips",
+      "label": "Samsung Tips",
+      "level": "safe"
+    },
+    {
+      "id": "com.samsung.android.voc",
+      "label": "Samsung Members",
+      "level": "safe"
+    },
+    {
+      "id": "com.samsung.android.tvplus",
+      "label": "Samsung TV Plus",
+      "level": "safe"
+    },
+    {
+      "id": "com.samsung.android.kidsinstaller",
+      "label": "Samsung Kids installer",
+      "level": "safe"
+    },
+    {
+      "id": "com.samsung.android.game.gamehome",
+      "label": "Game Launcher",
+      "level": "advanced",
+      "note": "Also removes Game Booster"
+    },
+    {
+      "id": "com.samsung.android.game.gametools",
+      "label": "Game Booster tools",
+      "level": "advanced"
+    },
+    {
+      "id": "com.sec.android.app.sbrowser",
+      "label": "Samsung Internet",
+      "level": "advanced",
+      "note": "Keep if it's your browser"
+    },
+    {
+      "id": "com.samsung.android.email.provider",
+      "label": "Samsung Email",
+      "level": "advanced"
+    },
+    {
+      "id": "com.samsung.android.spay",
+      "label": "Samsung Pay / Wallet",
+      "level": "advanced",
+      "note": "Breaks tap-to-pay with Samsung Wallet"
+    },
+    {
+      "id": "com.samsung.android.samsungpass",
+      "label": "Samsung Pass",
+      "level": "advanced"
+    },
+    {
+      "id": "com.samsung.android.app.watchmanager",
+      "label": "Galaxy Wearable",
+      "level": "advanced",
+      "note": "Needed for Galaxy Watch/Buds"
+    },
+    {
+      "id": "com.sec.android.app.kidshome",
+      "label": "Samsung Kids home",
+      "level": "advanced"
+    },
+    {
+      "id": "com.samsung.android.app.sharelive",
+      "label": "Quick Share",
+      "level": "advanced",
+      "note": "Needed for Quick Share"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Motorola",
+  "manufacturers": [
+    "motorola",
+    "lenovo"
+  ],
+  "packages": [
+    {
+      "id": "com.motorola.demo",
+      "label": "Retail demo",
+      "level": "safe"
+    },
+    {
+      "id": "com.motorola.help",
+      "label": "Moto Help",
+      "level": "safe"
+    },
+    {
+      "id": "com.motorola.genie",
+      "label": "Moto device help",
+      "level": "safe"
+    },
+    {
+      "id": "com.motorola.gamemode",
+      "label": "Moto Gametime",
+      "level": "advanced"
+    }
+  ]
+}

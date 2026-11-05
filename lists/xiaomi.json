@@ -1,0 +1,93 @@
+{
+  "name": "Xiaomi / Redmi / POCO (MIUI, HyperOS)",
+  "manufacturers": [
+    "xiaomi",
+    "redmi",
+    "poco"
+  ],
+  "packages": [
+    {
+      "id": "com.miui.msa.global",
+      "label": "MSA (system ads)",
+      "level": "safe",
+      "note": "Main source of MIUI ads"
+    },
+    {
+      "id": "com.miui.analytics",
+      "label": "MIUI Analytics",
+      "level": "safe"
+    },
+    {
+      "id": "com.miui.daemon",
+      "label": "MIUI data collection daemon",
+      "level": "safe"
+    },
+    {
+      "id": "com.xiaomi.mipicks",
+      "label": "GetApps",
+      "level": "safe"
+    },
+    {
+      "id": "com.xiaomi.glgm",
+      "label": "Xiaomi Games",
+      "level": "safe"
+    },
+    {
+      "id": "com.miui.videoplayer",
+      "label": "Mi Video",
+      "level": "safe"
+    },
+    {
+      "id": "com.miui.yellowpage",
+      "label": "Yellow Pages",
+      "level": "safe"
+    },
+    {
+      "id": "com.miui.bugreport",
+      "label": "Bug report / Feedback",
+      "level": "safe"
+    },
+    {
+      "id": "com.miui.hybrid",
+      "label": "Quick Apps",
+      "level": "safe"
+    },
+    {
+      "id": "com.miui.android.fashiongallery",
+      "label": "Wallpaper Carousel",
+      "level": "safe"
+    },
+    {
+      "id": "com.mi.globalbrowser",
+      "label": "Mi Browser",
+      "level": "advanced",
+      "note": "Keep if it's your browser"
+    },
+    {
+      "id": "com.miui.player",
+      "label": "Mi Music",
+      "level": "advanced"
+    },
+    {
+      "id": "com.mi.android.globalminusscreen",
+      "label": "App Vault (left screen)",
+      "level": "advanced"
+    },
+    {
+      "id": "com.miui.compass",
+      "label": "Compass",
+      "level": "advanced"
+    },
+    {
+      "id": "com.miui.weather2",
+      "label": "Weather",
+      "level": "advanced",
+      "note": "Removes the weather widget"
+    },
+    {
+      "id": "com.xiaomi.midrop",
+      "label": "ShareMe",
+      "level": "advanced"
+    }
+  ]
+}

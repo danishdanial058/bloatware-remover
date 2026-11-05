@@ -1,0 +1,40 @@
+{
+  "name": "Huawei / Honor (EMUI, MagicOS)",
+  "manufacturers": [
+    "huawei",
+    "honor"
+  ],
+  "packages": [
+    {
+      "id": "com.huawei.android.tips",
+      "label": "Tips",
+      "level": "safe"
+    },
+    {
+      "id": "com.huawei.himovie.overseas",
+      "label": "Huawei Video",
+      "level": "safe"
+    },
+    {
+      "id": "com.huawei.music",
+      "label": "Huawei Music",
+      "level": "advanced"
+    },
+    {
+      "id": "com.huawei.browser",
+      "label": "Huawei Browser",
+      "level": "advanced",
+      "note": "Keep if it's your browser"
+    },
+    {
+      "id": "com.huawei.gameassistant",
+      "label": "Game Center assistant",
+      "level": "advanced"
+    },
+    {
+      "id": "com.hihonor.tips",
+      "label": "Honor Tips",
+      "level": "safe"
+    }
+  ]
+}

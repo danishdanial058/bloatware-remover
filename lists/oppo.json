@@ -1,0 +1,62 @@
+{
+  "name": "Oppo / Realme / OnePlus (ColorOS, realme UI, OxygenOS)",
+  "manufacturers": [
+    "oppo",
+    "realme",
+    "oneplus"
+  ],
+  "packages": [
+    {
+      "id": "com.opos.ads",
+      "label": "System ads",
+      "level": "safe"
+    },
+    {
+      "id": "com.heytap.pictorial",
+      "label": "Lock screen magazine",
+      "level": "safe"
+    },
+    {
+      "id": "com.heytap.browser",
+      "label": "HeyTap Browser",
+      "level": "advanced",
+      "note": "Keep if it's your browser"
+    },
+    {
+      "id": "com.heytap.music",
+      "label": "HeyTap Music",
+      "level": "advanced"
+    },
+    {
+      "id": "com.heytap.cloud",
+      "label": "HeyTap Cloud",
+      "level": "advanced"
+    },
+    {
+      "id": "com.oppo.market",
+      "label": "App Market (old)",
+      "level": "advanced"
+    },
+    {
+      "id": "com.heytap.market",
+      "label": "App Market",
+      "level": "advanced",
+      "note": "Also delivers some system app updates"
+    },
+    {
+      "id": "com.coloros.gamespaceui",
+      "label": "Game Space",
+      "level": "advanced"
+    },
+    {
+      "id": "com.nearme.instant.platform",
+      "label": "Instant Apps",
+      "level": "safe"
+    },
+    {
+      "id": "com.oneplus.brickmode",
+      "label": "Zen Mode",
+      "level": "advanced"
+    }
+  ]
+}

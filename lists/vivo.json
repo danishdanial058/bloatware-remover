@@ -1,0 +1,35 @@
+{
+  "name": "Vivo / iQOO (Funtouch OS, OriginOS)",
+  "manufacturers": [
+    "vivo",
+    "iqoo"
+  ],
+  "packages": [
+    {
+      "id": "com.vivo.browser",
+      "label": "Vivo Browser",
+      "level": "advanced",
+      "note": "Keep if it's your browser"
+    },
+    {
+      "id": "com.vivo.appstore",
+      "label": "V-Appstore",
+      "level": "advanced"
+    },
+    {
+      "id": "com.vivo.easyshare",
+      "label": "EasyShare",
+      "level": "advanced"
+    },
+    {
+      "id": "com.vivo.hiboard",
+      "label": "Jovi smart cards",
+      "level": "safe"
+    },
+    {
+      "id": "com.vivo.assistant",
+      "label": "Jovi assistant",
+      "level": "safe"
+    }
+  ]
+}
